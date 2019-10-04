@@ -1,5 +1,7 @@
 body {
     background: #3B3E47;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
 }
 
 /* HEADER */
@@ -13,7 +15,6 @@ header h1 {
     color: #E68085;
     font-size: 34px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
@@ -21,8 +22,58 @@ header p {
     color: #E68085;
     text-align: center;
     line-height: 3;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 /* MAIN */
+.main {
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+li {
+    height: 50px;
+    position: relative;
+    padding-top: 25px;
+}
+
+li:nth-of-type(odd) {
+    background: #88849F;
+}
+
+li:nth-of-type(even) {
+    background: #7A7691;
+}
+
+li p {
+    display: inline;
+    color: white;
+}
+
+.first-p {
+    margin-left: 35px;
+}
+
+.second-p {
+
+}
+
+.checkbox {
+    position: absolute;
+    top: 25px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+/* FOOTER */
+footer {
+    background: #4A4E56;
+    text-align: center;
+    padding: 30px 0;
+    width: 60%;
+    margin: 0 auto;
+    color: #E68085;
+    font-size: 24px;
+}
