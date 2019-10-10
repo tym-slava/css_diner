@@ -47,6 +47,11 @@ li {
     padding-top: 25px;
 }
 
+label {
+    display: block;
+    width: 100%;
+}
+
 ul li:hover {
     border-top: 2px solid white;
     border-bottom: 2px solid white;
